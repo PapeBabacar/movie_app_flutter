@@ -23,7 +23,7 @@ class TrendingMovies extends StatelessWidget {
               height: 270,
               child: ListView.builder(
                   scrollDirection: Axis.vertical,
-                  itemCount: trending.length,
+                  itemCount: 10,
                   itemBuilder: (context, index) {
                     return ListTile(
                         onTap: () {
